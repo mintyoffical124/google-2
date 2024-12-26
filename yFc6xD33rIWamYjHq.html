@@ -1,0 +1,274 @@
+<html><head><base href="https://lmssmp.com/">
+<title>LMS SMP - Ultimate Minecraft Experience</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Minecraft', Arial, sans-serif;
+    background: url('/DALL·E 2024-12-24 14.03.26 - A vibrant and immersive background for a Minecraft server website. The design features a panoramic view of a Minecraft-inspired world, including pixel.webp') center/cover fixed;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .overlay {
+    background: rgba(0,0,0,0.7);
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  nav {
+    background: rgba(0,0,0,0.8);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: #54ff9f;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #000;
+  }
+
+  .server-ip {
+    background: rgba(0,0,0,0.8);
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px 0;
+  }
+
+  .feature-card {
+    background: rgba(0,0,0,0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .ranks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px 0;
+  }
+
+  .rank-card {
+    background: rgba(0,0,0,0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .rank-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .shop-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 40px 0;
+  }
+
+  .shop-item {
+    background: rgba(0,0,0,0.8);
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .btn {
+    background: #54ff9f;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background 0.3s;
+  }
+
+  .btn:hover {
+    background: #3dd17d;
+  }
+</style>
+</head>
+<body>
+<div class="overlay">
+  <nav>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#ranks">Ranks</a>
+      <a href="#shop">Shop</a>
+      <a href="#weapons">Weapons</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="hero">
+      <h1>Welcome to LMS SMP</h1>
+      <p>Experience Minecraft like never before with our unique features and custom content!</p>
+      <div class="server-ip">
+        Server IP: play.lmssmp.com
+      </div>
+    </div>
+
+    <div class="features" id="features">
+      <div class="feature-card">
+        <h3>Custom Mobs</h3>
+        <p>Face unique challenges with our custom-designed mobs and bosses!</p>
+      </div>
+      <div class="feature-card">
+        <h3>Custom Map</h3>
+        <p>Explore our handcrafted world with unique biomes and structures</p>
+      </div>
+      <div class="feature-card">
+        <h3>Economy System</h3>
+        <p>Earn and spend MC Coins in our dynamic economy</p>
+      </div>
+      <div class="feature-card">
+        <h3>Starter Classes</h3>
+        <p>Choose your path: Warrior, Mage, Archer, or Assassin</p>
+      </div>
+    </div>
+
+    <div class="ranks" id="ranks">
+      <div class="rank-card">
+        <h3>VIP Rank</h3>
+        <p>$4.99/month</p>
+        <ul>
+          <li>2x MC Coins</li>
+          <li>Custom Chat Color</li>
+          <li>Access to /fly</li>
+          <li>2 Home Points</li>
+        </ul>
+        <a href="https://store.lmssmp.com/vip" class="btn">Purchase VIP</a>
+      </div>
+      <div class="rank-card">
+        <h3>MVP Rank</h3>
+        <p>$9.99/month</p>
+        <ul>
+          <li>4x MC Coins</li>
+          <li>Custom Chat Format</li>
+          <li>Access to /fly and /heal</li>
+          <li>5 Home Points</li>
+        </ul>
+        <a href="https://store.lmssmp.com/mvp" class="btn">Purchase MVP</a>
+      </div>
+      <div class="rank-card">
+        <h3>Legend Rank</h3>
+        <p>$19.99/month</p>
+        <ul>
+          <li>8x MC Coins</li>
+          <li>Custom Everything</li>
+          <li>All Commands</li>
+          <li>10 Home Points</li>
+        </ul>
+        <a href="https://store.lmssmp.com/legend" class="btn">Purchase Legend</a>
+      </div>
+    </div>
+
+    <div class="shop-items" id="shop">
+      <div class="shop-item">
+        <h3>Diamond Sword+</h3>
+        <p>5,000 MC Coins</p>
+        <p>Enhanced damage and durability</p>
+        <button class="btn">Purchase</button>
+      </div>
+      <div class="shop-item">
+        <h3>Magic Bow</h3>
+        <p>7,500 MC Coins</p>
+        <p>Shoots explosive arrows</p>
+        <button class="btn">Purchase</button>
+      </div>
+      <div class="shop-item">
+        <h3>Teleport Crystal</h3>
+        <p>10,000 MC Coins</p>
+        <p>Instant teleportation</p>
+        <button class="btn">Purchase</button>
+      </div>
+      <div class="shop-item">
+        <h3>XP Booster</h3>
+        <p>2,500 MC Coins</p>
+        <p>2x XP for 1 hour</p>
+        <button class="btn">Purchase</button>
+      </div>
+      <div class="shop-item">
+        <h3>Custom Pet</h3>
+        <p>15,000 MC Coins</p>
+        <p>Choose your companion</p>
+        <button class="btn">Purchase</button>
+      </div>
+      <div class="shop-item">
+        <h3>Enchanted Golden Apple</h3>
+        <p>3,000 MC Coins</p>
+        <p>Ultimate survival item</p>
+        <button class="btn">Purchase</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.querySelectorAll('.btn').forEach(button => {
+  button.addEventListener('click', function() {
+    if (!this.getAttribute('href')) {
+      alert('Please login to make purchases!');
+    }
+  });
+});
+
+// Add smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+</body></html>
